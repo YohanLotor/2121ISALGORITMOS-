@@ -1,0 +1,16 @@
+<script>
+    function generateRandom(len) 
+    {
+      let palabras = '';
+      let abecedario = "ABCDEFGHIJKLMNOPQRSTUWXYZ";
+  
+     for(let i = 0; i < len; i++) {
+      palabras += abecedario.charAt(Math.floor(Math.random() * abecedario.length));
+      console.log("palabras en for: ", palabras);
+      console.log("palabras en for: ", palabras);
+    }
+    console.log(palabras)
+  }
+ 
+ generateRandom(10);
+</script> 
